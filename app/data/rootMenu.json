@@ -12,6 +12,6 @@
   "sentence":{
     "name": "句子",
     "directory": "sentence",
-    "introduction": "传统蒙古文单词。"
-  },
+    "introduction": "传统蒙古文句子。"
+  }
 }

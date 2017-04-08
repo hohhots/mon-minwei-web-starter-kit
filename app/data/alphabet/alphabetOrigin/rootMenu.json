@@ -1,18 +1,130 @@
 {
-  "alphabetOrigin": {
-    "name": "Alphabet Origin",
-    "directory": "alphabetOrigin",
-    "introduction": "Mongolian alphabet."
+  "a":{
+    "name": "a",
+    "image": "image/a.png",
+    "audio": "audio/a.mp3",
+    "video": "video/a.mp4",
+    "test": "aTest.json",
+    "introduction": "传统蒙古文字母"a"。"
   },
-  "alphabetPronounce": {
-    "name": "Alphabet pronounce",
-    "directory": "alphabePronounce",
-    "introduction": "Mongolian alphabet pronounce with vowel."
+  "na":{
+    "name": "na",
+    "image": "image/na.png",
+    "audio": "audio/na.mp3",
+    "video": "video/na.mp4",
+    "test": "naTest.json",
+    "introduction": "传统蒙古文字母"na"。"
   },
-  "alphabetWritingStyle": {
-    "name": "Alphabet writing style",
-    "directory": "alphabetWritingStyle",
-    "introduction": "Mongolian alphabet writing style in word head/middle/bottom."
+  "ba":{
+    "name": "ba",
+    "image": "image/ba.png",
+    "audio": "audio/ba.mp3",
+    "video": "video/ba.mp4",
+    "test": "baTest.json",
+    "introduction": "传统蒙古文字母"ba"。"
   },
-
+  "pa":{
+    "name": "pa",
+    "image": "image/pa.png",
+    "audio": "audio/pa.mp3",
+    "video": "video/pa.mp4",
+    "test": "paTest.json",
+    "introduction": "传统蒙古文字母"pa"。"
+  },
+  "ha":{
+    "name": "ha",
+    "image": "image/ha.png",
+    "audio": "audio/ha.mp3",
+    "video": "video/ha.mp4",
+    "test": "haTest.json",
+    "introduction": "传统蒙古文字母"ha"。"
+  },
+  "ga":{
+    "name": "ga",
+    "image": "image/ga.png",
+    "audio": "audio/ga.mp3",
+    "video": "video/ga.mp4",
+    "test": "gaTest.json",
+    "introduction": "传统蒙古文字母"ga"。"
+  },
+  "ma":{
+    "name": "ma",
+    "image": "image/ma.png",
+    "audio": "audio/ma.mp3",
+    "video": "video/ma.mp4",
+    "test": "maTest.json",
+    "introduction": "传统蒙古文字母"ma"。"
+  },
+  "la":{
+    "name": "la",
+    "image": "image/la.png",
+    "audio": "audio/la.mp3",
+    "video": "video/la.mp4",
+    "test": "laTest.json",
+    "introduction": "传统蒙古文字母"la"。"
+  },
+  "sa":{
+    "name": "sa",
+    "image": "image/sa.png",
+    "audio": "audio/sa.mp3",
+    "video": "video/sa.mp4",
+    "test": "saTest.json",
+    "introduction": "传统蒙古文字母"sa"。"
+  },
+  "sha":{
+    "name": "sha",
+    "image": "image/sha.png",
+    "audio": "audio/sha.mp3",
+    "video": "video/sha.mp4",
+    "test": "shaTest.json",
+    "introduction": "传统蒙古文字母"sha"。"
+  },
+  "ta":{
+    "name": "ta",
+    "image": "image/ta.png",
+    "audio": "audio/ta.mp3",
+    "video": "video/ta.mp4",
+    "test": "taTest.json",
+    "introduction": "传统蒙古文字母"ta"。"
+  },
+  "da":{
+    "name": "da",
+    "image": "image/da.png",
+    "audio": "audio/da.mp3",
+    "video": "video/da.mp4",
+    "test": "daTest.json",
+    "introduction": "传统蒙古文字母"da"。"
+  },
+  "cha":{
+    "name": "cha",
+    "image": "image/cha.png",
+    "audio": "audio/cha.mp3",
+    "video": "video/cha.mp4",
+    "test": "chaTest.json",
+    "introduction": "传统蒙古文字母"cha"。"
+  },
+  "zha":{
+    "name": "zha",
+    "image": "image/zha.png",
+    "audio": "audio/zha.mp3",
+    "video": "video/zha.mp4",
+    "test": "zhaTest.json",
+    "introduction": "传统蒙古文字母"zha"。"
+  },
+  "ya":{
+    "name": "ya",
+    "image": "image/ya.png",
+    "audio": "audio/ya.mp3",
+    "video": "video/ya.mp4",
+    "test": "yaTest.json",
+    "introduction": "传统蒙古文字母"ya"。"
+  },
+  "ra":{
+    "name": "ra",
+    "image": "image/ra.png",
+    "audio": "audio/ra.mp3",
+    "video": "video/ra.mp4",
+    "test": "raTest.json",
+    "introduction": "传统蒙古文字母"ra"。"
+  }
 }
