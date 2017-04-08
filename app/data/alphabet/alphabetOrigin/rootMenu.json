@@ -1,0 +1,18 @@
+{
+  "alphabetOrigin": {
+    "name": "Alphabet Origin",
+    "directory": "alphabetOrigin",
+    "introduction": "Mongolian alphabet."
+  },
+  "alphabetPronounce": {
+    "name": "Alphabet pronounce",
+    "directory": "alphabePronounce",
+    "introduction": "Mongolian alphabet pronounce with vowel."
+  },
+  "alphabetWritingStyle": {
+    "name": "Alphabet writing style",
+    "directory": "alphabetWritingStyle",
+    "introduction": "Mongolian alphabet writing style in word head/middle/bottom."
+  },
+
+}

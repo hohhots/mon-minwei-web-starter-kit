@@ -1,0 +1,17 @@
+{
+  "alphabet":{
+    "name": "字母",
+    "directory": "alphabet",
+    "introduction": "传统蒙古文字母。"
+  },
+  "word":{
+    "name": "单词",
+    "directory": "word",
+    "introduction": "传统蒙古文单词。"
+  },
+  "sentence":{
+    "name": "句子",
+    "directory": "sentence",
+    "introduction": "传统蒙古文单词。"
+  },
+}
