@@ -1,0 +1,10 @@
+node_modules
+docs
+libs
+dist
+.tmp
+app.yaml
+*.pyc
+*~
+#*
+*#
