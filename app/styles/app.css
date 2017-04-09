@@ -91,3 +91,21 @@ h1 {
   font-size: 1.2em;
   font-weight: bold;
 }
+
+.test-container {
+  position: absolute;
+  background-color: #333333;
+  left: 0;
+  top: 0;
+  padding: 50px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.test-content {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+
+}

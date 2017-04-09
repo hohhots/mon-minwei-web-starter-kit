@@ -6,19 +6,19 @@ angular.
     function config($stateProvider, $urlRouterProvider) {
       $urlRouterProvider.otherwise('/subjects');
 
-      var subjectsState = {
+      var subjectState = {
         name: 'subjects',
         url: '/subjects',
         template: '<subject-list></subject-list>'
       };
 
-      var subjectState = {
-        name: 'subject',
-        url: '/subject/{subjectId}',
+      var missionState = {
+        name: 'mission',
+        url: '/{subjectId}/mission',
         template: '<mission-list></mission-list>'
       };
 
-      $stateProvider.state(subjectsState);
       $stateProvider.state(subjectState);
+      $stateProvider.state(missionState);
     }
   ]);

@@ -23,10 +23,10 @@
       <ul class="subjects">
         <li ng-repeat="subject in $ctrl.subjects | filter:$ctrl.query | orderBy:$ctrl.orderProp"
             class="thumbnail subject-list-item">
-          <a href="#!/subject/{{subject.id}}" class="thumb">
+          <a href="#!/{{subject.id}}/mission" class="thumb">
             <img ng-src="{{subject.imageUrl}}" alt="{{subject.name}}" />
           </a>
-          <a href="#!/subject/{{subject.id}}">{{subject.name}}</a>
+          <a href="#!/{{subject.id}}/mission">{{subject.name}}</a>
           <p>{{subject.introduction}}</p>
         </li>
       </ul>

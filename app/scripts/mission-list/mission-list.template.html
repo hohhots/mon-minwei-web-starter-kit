@@ -23,14 +23,20 @@
       <ul class="subjects">
         <li ng-repeat="mission in $ctrl.missions | filter:$ctrl.query | orderBy:$ctrl.orderProp"
             class="thumbnail subject-list-item">
-          <a href="#!/mission/{{mission.id}}" class="thumb">
+          <a ng-click="$ctrl.test(mission)" class="thumb">
             <img ng-src="{{mission.imageUrl}}" alt="{{mission.name}}" />
           </a>
-          <a href="#!/mission/{{mission.id}}">{{mission.name}}</a>
+          <a href="#!/{{$ctrl.subjectId}}/{{mission.id}}">{{mission.name}}</a>
           <p>{{mission.introduction}}</p>
         </li>
       </ul>
-
     </div>
   </div>
+</div>
+
+<div class="test-container" ng-hide="$ctrl.startTest">
+  <div class="test-content">
+    <img src="data/1/1/test.png" width="1510px" height="778px">
+  </div>
+  <br />
 </div>
