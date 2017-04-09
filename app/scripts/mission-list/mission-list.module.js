@@ -1,4 +1,4 @@
 'use strict';
 
 // Define the `learnMongolApp` module
-angular.module('missionList', []);
+angular.module('missionList', ['core.mission']);

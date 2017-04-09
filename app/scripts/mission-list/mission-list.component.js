@@ -5,8 +5,10 @@ angular.
   module('missionList').
   component('missionList', {
     templateUrl: 'scripts/mission-list/mission-list.template.html',
-    controller: function MissionListController() {
-        var self = this;
-
-      }
+    controller: ['Mission', '$stateParams', function MissionListController(Mission, $stateParams) {
+      var self = this;
+      self.missions = Mission.query({subjectId:   $stateParams.subjectId});
+      this.orderProp = 'id';
+        }
+      ]
   });

@@ -12,14 +12,13 @@ angular.
         template: '<subject-list></subject-list>'
       };
 
-      var missionsState = {
-        name: 'mission',
-        url: '/missions',
+      var subjectState = {
+        name: 'subject',
+        url: '/subject/{subjectId}',
         template: '<mission-list></mission-list>'
       };
 
       $stateProvider.state(subjectsState);
-      $stateProvider.state(missionsState);
-
+      $stateProvider.state(subjectState);
     }
   ]);
