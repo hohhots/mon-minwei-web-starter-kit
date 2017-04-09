@@ -2,5 +2,9 @@
 
 // Define the `learnMongolApp` module
 angular.module('learnMongolApp', [
-  'ui.router'
+  'ui.router',
+  'core',
+  'subjectList',
+  'missionList',
+  'missionTest'
 ]);

@@ -42,12 +42,21 @@
     <link rel="canonical" href="http://www.example.com/">
     -->
   </head>
-  <body ng-app="learnMongolApp">
+  <body ng-app="learnMongolApp"  class="container">
     <!-- Add your site or app content here -->
-    <div class="view-container">
-      <ui-view></ui-view>
-    </div>
+    <div class="row">
+        <div class="col-md-2 col-md-offset-1">
+          <header>
+            <div class="">
+              <a href="#/">首页</a>
+            </div>
+          </header>
 
+          <div class="view-container">
+            <ui-view></ui-view>
+          </div>
+        </div
+    </div>
 
     <!-- build:js scripts/main.min.js -->
     <script src="scripts/main.js"></script>
@@ -62,5 +71,16 @@
     <script src="scripts/app.module.js"></script>
     <script src="scripts/app.config.js"></script>
 
+    <script src="scripts/core/core.module.js"></script>
+    <script src="scripts/core/subject/subject.module.js"></script>
+      <script src="scripts/core/subject/subject.service.js"></script>
+    <script src="scripts/subject-list/subject-list.module.js"></script>
+    <script src="scripts/subject-list/subject-list.component.js"></script>
+
+    <script src="scripts/mission-list/mission-list.module.js"></script>
+    <script src="scripts/mission-list/mission-list.component.js"></script>
+
+    <script src="scripts/mission-test/mission-test.module.js"></script>
+    <script src="scripts/mission-test/mission-test.component.js"></script>
   </body>
 </html>
