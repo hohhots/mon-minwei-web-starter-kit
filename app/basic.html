@@ -7,6 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>学习传统蒙古文</title>
 
+    <!-- CSS from other library -->
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+
+    <!-- Application css -->
+    <link rel="stylesheet" href="styles/app.css" />
+
     <!-- Disable tap highlight on IE -->
     <meta name="msapplication-tap-highlight" content="no">
 
@@ -36,7 +42,7 @@
     <link rel="canonical" href="http://www.example.com/">
     -->
   </head>
-  <body>
+  <body ng-app="learnMongolApp">
     <!-- Add your site or app content here -->
     <div class="view-container">
       <ui-view></ui-view>
@@ -53,7 +59,8 @@
     <script src="bower_components/angular-resource/angular-resource.min.js"></script>
     <script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
 
-    <script src="scripts/app.js"></script>
+    <script src="scripts/app.module.js"></script>
+    <script src="scripts/app.config.js"></script>
 
   </body>
 </html>
