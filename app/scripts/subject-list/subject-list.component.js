@@ -5,9 +5,9 @@ angular.
   module('subjectList').
   component('subjectList', {
     templateUrl: 'scripts/subject-list/subject-list.template.html',
-    controller: ['Subject', function subjectListController(Subject) {
-        
-
-      }
-    ]
+    controller: ['Subject', function subjectListController(Subject)   {
+      this.subjects = Subject.query();
+      this.orderProp = 'id';
+        }
+      ]
   });

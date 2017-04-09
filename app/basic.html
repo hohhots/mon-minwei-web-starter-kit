@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="">
+<html lang="" ng-app="learnMongolApp">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,6 +12,7 @@
 
     <!-- Application css -->
     <link rel="stylesheet" href="styles/app.css" />
+    <link rel="stylesheet" href="styles/app.animations.css" />
 
     <!-- Disable tap highlight on IE -->
     <meta name="msapplication-tap-highlight" content="no">
@@ -42,21 +43,22 @@
     <link rel="canonical" href="http://www.example.com/">
     -->
   </head>
-  <body ng-app="learnMongolApp"  class="container">
+  <body>
     <!-- Add your site or app content here -->
     <div class="row">
-        <div class="col-md-2 col-md-offset-1">
-          <header>
-            <div class="">
-              <a href="#/">首页</a>
-            </div>
-          </header>
-
-          <div class="view-container">
-            <ui-view></ui-view>
+      <div class="col-md-2 col-md-offset-1">
+        <header>
+          <div class="">
+            <a href="#/">首页</a>
           </div>
-        </div
+        </header>
+      </div>
     </div>
+    <div class="view-container">
+      <ui-view></ui-view>
+    </div>
+
+
 
     <!-- build:js scripts/main.min.js -->
     <script src="scripts/main.js"></script>

@@ -4,10 +4,10 @@ angular.
   module('core.subject').
   factory('Subject', ['$resource',
     function($resource) {
-      return $resource('phones/:phoneId.json', {}, {
+      return $resource('data/:subjectId.json', {}, {
         query: {
           method: 'GET',
-          params: {phoneId: 'phones'},
+          params: {subjectId: 'rootMenu'},
           isArray: true
         }
       });

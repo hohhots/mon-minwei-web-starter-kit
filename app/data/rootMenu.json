@@ -1,17 +1,23 @@
-{
-  "alphabet":{
+[
+  {
+    "id": 1,
     "name": "字母",
     "directory": "alphabet",
-    "introduction": "传统蒙古文字母。"
+    "introduction": "传统蒙古文字母。",
+    "imageUrl": "data/alphabet.png"
   },
-  "word":{
+  {
+    "id": 2,
     "name": "单词",
     "directory": "word",
-    "introduction": "传统蒙古文单词。"
+    "introduction": "传统蒙古文单词。",
+    "imageUrl": "data/word.png"
   },
-  "sentence":{
+  {
+    "id": 3,
     "name": "句子",
     "directory": "sentence",
-    "introduction": "传统蒙古文句子。"
+    "introduction": "传统蒙古文句子。",
+    "imageUrl": "data/sentence.png"
   }
-}
+]
