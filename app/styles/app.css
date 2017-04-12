@@ -1,7 +1,13 @@
+html,
+body {
+  font-family: 宋体;
+}
+
 .navbar-inverse {
     background-color: #337ab7;
     border-color: #337ab7;
     border-radius: 0;
+    font-size: 16px;
 }
 
 .navbar-inverse .navbar-nav > li > a ,
@@ -11,4 +17,30 @@
 
 .navbar-inverse .navbar-toggle {
     border-color: #ccc;
+}
+
+.nav {
+    padding-top: 2px;
+}
+
+.navbar-brand {
+  white-space: nowrap;
+}
+
+.panel-collapse {
+  width: 100%;
+  position: absolute;
+  z-index: 1000;
+  border-bottom: 1px solid #337ab7;
+  margin-bottom: 15px;
+  background-color: #fff;
+}
+
+.panel-default > .panel-heading {
+  color: #337ab7;
+  font-weight: 700;
+}
+
+a.list-group-item, button.list-group-item {
+  color: #337ab7;
 }

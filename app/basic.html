@@ -47,8 +47,8 @@
   <!-- Add your site or app content here -->
     <header>
       <nav class="navbar navbar-inverse">
-        <div class="container-fluid">
-          <div class="navbar-header">
+        <div class="container">
+          <div class="navbar-header col-sm-2">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
@@ -57,8 +57,8 @@
             <a class="navbar-brand" href="http://www.nmgmzw.gov.cn/"><span class="glyphicon glyphicon-education"></span> 蒙语教学</a>
           </div>
           <div class="collapse navbar-collapse" id="myNavbar">
-            <ul class="nav navbar-nav">
-              <li></li>
+            <ul class="nav navbar-nav col-sm-6">
+              <li><a data-toggle="collapse" href="#collapse1">科目 <span class="caret"></span></a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
               <li><a href="#"><span class="glyphicon glyphicon-user"></span> 登录</a></li>
@@ -68,6 +68,58 @@
         </div>
       </nav>
     </header>
+
+    <div id="collapse1" class="panel-collapse collapse">
+      <div class="container">
+        <div class="col-md-3">
+          <div class="panel panel-default">
+            <div class="panel-heading"><span class="glyphicon glyphicon-grain"></span> 字母按科目</div>
+            <div class="panel-body list-group">
+              <a href="#" class="list-group-item"><span class="glyphicon glyphicon-star-empty"></span> 根字母</a>
+              <a href="#" class="list-group-item"><span class="glyphicon glyphicon-star-empty"></span> 根字母加元音</a>
+              <a href="#" class="list-group-item"><span class="glyphicon glyphicon-star-empty"></span> 字母在字首、字中、字尾</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="panel panel-default">
+            <div class="panel-heading"><span class="glyphicon  glyphicon-grain"></span> 单词按科目</div>
+            <div class="panel-body list-group">
+              <a href="#" class="list-group-item"><span class="glyphicon glyphicon-star-empty"></span> 根字母加元音</a>
+              <a href="#" class="list-group-item"><span class="glyphicon glyphicon-star-empty"></span> 根字母加元音</a>
+              <a href="#" class="list-group-item"><span class="glyphicon glyphicon-star-empty"></span> 根字母加元音</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="panel panel-default">
+            <div class="panel-heading"><span class="glyphicon glyphicon-grain"></span> 句子按科目</div>
+            <div class="panel-body list-group">
+              <a href="#" class="list-group-item"><span class="glyphicon glyphicon-star-empty"></span> 根字母加元音</a>
+              <a href="#" class="list-group-item"><span class="glyphicon glyphicon-star-empty"></span> 根字母加元音</a>
+              <a href="#" class="list-group-item"><span class="glyphicon glyphicon-star-empty"></span> 根字母加元音</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="panel panel-default">
+            <div class="panel-heading"><span class="glyphicon glyphicon-tree-conifer"></span> 按等级</div>
+            <div class="panel-body list-group">
+              <a href="#" class="list-group-item"><span class="glyphicon glyphicon-star"></span> 一级</a>
+              <a href="#" class="list-group-item"><span class="glyphicon glyphicon-star"></span> 二级</a>
+              <a href="#" class="list-group-item"><span class="glyphicon glyphicon-star"></span> 三级</a>
+              <a href="#" class="list-group-item"><span class="glyphicon glyphicon-star"></span> 四级</a>
+              <a href="#" class="list-group-item"><span class="glyphicon glyphicon-star"></span> 五级</a>
+              <a href="#" class="list-group-item"><span class="glyphicon glyphicon-star"></span> 六级</a>
+              <a href="#" class="list-group-item"><span class="glyphicon glyphicon-star"></span> 七级</a>
+              <a href="#" class="list-group-item"><span class="glyphicon glyphicon-star"></span> 八级</a>
+              <a href="#" class="list-group-item"><span class="glyphicon glyphicon-star"></span> 九级</a>
+              <a href="#" class="list-group-item"><span class="glyphicon glyphicon-star"></span> 十级</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <div class="container">
       <ui-view></ui-view>
