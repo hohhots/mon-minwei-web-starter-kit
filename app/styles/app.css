@@ -3,20 +3,39 @@ body {
   font-family: 宋体;
 }
 
+.nav-container {
+  border-top: 1px solid transparent;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.3) !important;
+}
+
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 0;
+    border: 1px solid transparent;
+}
+
 .navbar-inverse {
-    background-color: #337ab7;
-    border-color: #337ab7;
+    background-color: transparent;
+    border-color: transparent;
     border-radius: 0;
-    font-size: 16px;
+    font-size: 18px;
+    font-weight: 200;
 }
 
 .navbar-inverse .navbar-nav > li > a ,
 .navbar-inverse .navbar-brand {
+    color: #FFF;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover ,
+.navbar-inverse .navbar-brand:hover {
     color: #eee;
 }
 
 .navbar-inverse .navbar-toggle {
-    border-color: #ccc;
+    border-color: #eee;
+    text-shadow: 0 0 10px #1499af !important;
 }
 
 .nav {
@@ -27,15 +46,6 @@ body {
   white-space: nowrap;
 }
 
-.panel-collapse {
-  width: 100%;
-  position: absolute;
-  z-index: 1000;
-  border-bottom: 1px solid #337ab7;
-  margin-bottom: 15px;
-  background-color: #fff;
-}
-
 .panel-default > .panel-heading {
   color: #337ab7;
   font-weight: 700;
@@ -43,4 +53,68 @@ body {
 
 a.list-group-item, button.list-group-item {
   color: #337ab7;
+}
+
+#collapse1 {
+  z-index: 1000;
+  position: absolute;
+  width: 100%;
+  padding-top: 20px;
+  background: #fff;
+  border-bottom: 1px solid #ccc;
+}
+
+.manifesto-container {
+  margin-bottom: 20px;
+  background-position: center !important;
+  background-size: cover !important;
+  height: 506px !important;
+  justify-content: center !important;
+  background-image: url(../images/mountains.svg) !important;
+}
+
+.manifesto {
+  margin-top: 100px;
+  color: #FFF;
+  font-size: 30px;
+  text-align: center;
+  text-shadow: 0 0 10px #1499af !important;
+}
+
+@media screen and (max-width: 767px) {
+  .manifesto-container {
+    height: 160px !important;
+  }
+
+  .manifesto {
+    margin-top: 10px;
+    font-size: 18px !important;
+    padding: 15px 10px 0 10px !important;
+  }
+
+  .navbar-collapse {
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+    border: none;
+    background-color: #286090;
+  }
+
+  #collapse1 {
+    margin-top: 140px;
+  }
+}
+
+@media screen and (max-width: 1023px)
+              and (min-width: 768px) {
+  .manifesto-container {
+    height: 270px !important;
+  }
+
+  .manifesto {
+    margin-top: 30px;
+    font-size: 22px !important;
+    margin-bottom: 32px !important;
+    padding: 0 38px !important;
+  }
 }
